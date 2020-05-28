@@ -14,7 +14,7 @@ Local host live streaming using Flask - Python Web Framework
 
 # Steps to Execute Code
 
-1. Launch terminal for Windows 
+1. Launch terminal 
 
 2. cd to Project Directory 
 
@@ -24,7 +24,7 @@ Local host live streaming using Flask - Python Web Framework
 
 4. Go on to preferred web browser -> 'localhost: port number being shown on terminal window'
 
-5. Ctrl+C in the terminal to exit from stream
+5. To exit from stream and terminate operations -> ctrl + c
 
 # References
 
