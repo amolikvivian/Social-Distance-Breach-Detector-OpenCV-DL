@@ -19,11 +19,11 @@ Local host live streaming using Flask - Python Web Framework
 
 2. `cd to Project Directory` 
 
-3. Write the following commands in the terminal - 
+3. Write the following commands in the terminal : 
   `'set FLASK_APP = Main.py' -> 
   'flask run --host = 0.0.0.0'`
 
-4. Go on to preferred web browser -> `'localhost: port number being shown on terminal window'`
+4. Go on to preferred web browser : `'localhost: <port number being shown on terminal window>'`
 
 5. To exit from stream and terminate operations -> `ctrl + c`
 
