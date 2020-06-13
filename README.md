@@ -2,8 +2,12 @@
 OpenCV with Python based project using Caffe Deep Learning Framework 
 and Triangle Similarity Theorem to identify Social Distance Breaches.
 
+## Single Shot MultiBox Detection
+Utilizes SSD Framework to perform Object Detection. SSD works on a base network in this case - MobileNet to extract feature
+maps and fruther applies Convolution Filters to make predictions.
+
 ## Model
-Caffe Deep Learning Framework (Single Shot Detection) to identify people in frame - SSD_MobileNet.caffemodel
+Caffe Deep Learning Framework (Single Shot MultiBox Detection) to identify people in frame - SSD_MobileNet.caffemodel.
 For more information on [Caffe](https://github.com/BVLC/caffe)
 
 ## Distance and Depth
