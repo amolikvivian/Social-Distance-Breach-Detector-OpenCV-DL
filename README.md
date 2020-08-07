@@ -4,7 +4,7 @@ and Triangle Similarity Theorem to identify Social Distance Breaches.
 
 ## Single Shot MultiBox Detection
 Utilizes SSD Framework to perform Object Detection. SSD works on a base network in this case - MobileNet to extract feature
-maps and fruther applies Convolution Filters to make predictions.
+maps and applies Convolution Filters to make predictions.
 
 ## Model
 Caffe Deep Learning Framework (Single Shot MultiBox Detection) to identify people in frame - SSD_MobileNet.caffemodel.
