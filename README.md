@@ -15,9 +15,10 @@ Triangle Similarity Theorem to measure distance from objects to camera. Further,
 to find distance between two objects.
 
 ## Streaming
-Local host live streaming using Flask - Python Web Framework
+The Flask App was created as a way to show portability of the project. Given the lightweight MobileNet, we could receive a direct video surveillance on live
+feed with a lag of approx 0.25 seconds.
 
-## Steps to Execute Code
+## Steps to Execute Flask-App Code
 
 1. `Launch terminal` 
 
