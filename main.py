@@ -7,7 +7,7 @@ import numpy as np
 from imutils.video import FPS
 from imutils.video import VideoStream
 
-FOCAL_LENGTH = 570
+FOCAL_LENGTH = 615
 WARNING_LABEL = "Maintain Safe Distance. Move away!"
 
 PERSON_ID = 15
