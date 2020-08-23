@@ -66,7 +66,7 @@ while True:
                 (startX, startY, endX, endY) = box.astype('int')
 
                 #Draw the prediction on the frame
-                label = "Person: {:.2f}%".format(confidence * 100)
+                label = 'Person: {:.1f}%'.format(conf * 100)
                 cv2.rectangle(frame, (startX, startY), (endX, endY), (10,255,0), 2)
 
                 y = startY - 15 if startY - 15 > 15 else startY + 15
@@ -101,7 +101,7 @@ while True:
             if i < j:
                 
                 #Calculating distance between both detected objects
-                squaredDist = pos[i][0] - pos[j][0])**2 + (pos[i][1] - pos[j][1])**2 + (pos[i][2] - pos[j][2])**2
+                squaredDist = (pos[i][0] - pos[j][0])**2 + (pos[i][1] - pos[j][1])**2 + (pos[i][2] - pos[j][2])**2
                 dist = sqrt(sqauredDist)
 
                 #Checking threshold distance - 175 cm and adding warning label
